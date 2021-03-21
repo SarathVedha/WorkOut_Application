@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">WorkOut</string>
+    <string name="hii_sign_in_us">Hii, 😊 Sign In us... 😊</string>
+    <string name="workout_schedule">Workout Schedule</string>
+    <string name="logout">LOGOUT</string>
+    <string name="vedha">Vedha</string>
+    <string name="day">Day</string>
+    <string name="hii_there_vedha">Hii There, VEDHA</string>
+    <string name="About"> Beginner Workout For 3-Months \nProper Diet </string>
+    <string name="About2"> Intermediate Workout For 9-Months \nProper Diet</string>
+    <string name="thursday">Backs,Chests,Shoulders, Biceps,Triceps...</string>
+    <string name="monday">Backs,Chests,Shoulders, Biceps,Triceps...</string>
+    <string name="RestDay"><![CDATA[Follow Rest On \'Wednesday Saturday Sunday \' You Also--> Must Follow Diet 😊😊]]></string>
+    <string name="Diet_plan">
+        <a href="https://youtu.be/X2AoZSkS5SQ">Diet Plan</a>
+    </string>
+    <string name="Diet_plan2">
+        <a href="https://www.youtube.com/watch?v=oodD3I8TA1A&amp;t=818s">Diet Plan</a>
+    </string>
+    <string name="channel">
+        <a href="https://www.youtube.com/channel/UCBuKa4YZamcn7sJ8Ks85n6w">channel Link</a>
+    </string>
+    <string name="core_abs"><![CDATA[CORE & ABS]]></string>
+    <string name="cardio_core"><![CDATA[Cardio & Core]]></string>
+    <string name="wednesday_sunday_nfor_rest_to_body">Wednesday, Sunday \nfor Rest to Body</string>
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.workout">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme1">
+        <activity android:name=".register" />
+        <activity android:name=".login" />
+        <activity
+            android:name=".intra_diet"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_rest"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_shoulder"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_triceps"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_chest"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_friday"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_abs"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_core2"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_core1"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_thursday"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_traps"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_biceps"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_back"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_tuesday"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_squad"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".begi_calf"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".begi_hamstring"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".begi_squad"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_monday"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".begi_tricep"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".begi_bicep"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".begi_chest"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".begi_back"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".begi_diet"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".begi_rest"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".begi_tuesday"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".begi_monday"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".intra_plan"
+            android:theme="@style/fullscreen" />
+        <activity
+            android:name=".beginner_plan"
+            android:theme="@style/fullscreen" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".sign_in">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".beginner_plan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/topView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/topView4"
+                    android:layout_marginTop="-70dp"
+                    android:background="@drawable/border4">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="70dp"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="135dp"
+                            android:layout_height="180dp"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="20dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/restday"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/jeff4"
+                                app:riv_corner_radius="25dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginStart="40dp"
+                                android:layout_marginBottom="10dp"
+                                android:text="RestDay"
+                                android:textColor="@color/white"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="135dp"
+                            android:layout_height="180dp"
+                            android:layout_marginStart="50dp"
+                            android:layout_marginTop="20dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/beginnerdiet"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/diet"
+                                app:riv_corner_radius="25dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginBottom="10dp"
+                                android:text="Beginner Diet"
+                                android:textColor="@color/white"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/topView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="330dp"
+                    android:layout_below="@id/TopView3"
+                    android:layout_marginTop="-70dp"
+                    android:background="@drawable/border3">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="240dp"
+                        android:layout_marginTop="70dp"
+                        android:scrollbarSize="0dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="135dp"
+                                android:layout_height="180dp"
+                                android:layout_marginStart="35dp">
+
+                                <com.makeramen.roundedimageview.RoundedImageView
+                                    android:id="@+id/monday"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:clickable="true"
+                                    android:focusable="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/jeff1"
+                                    app:riv_corner_radius="25dp" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="40dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Monday"
+                                        android:textColor="@color/white"
+                                        android:textSize="15sp"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+                            <RelativeLayout
+                                android:layout_width="135dp"
+                                android:layout_height="180dp"
+                                android:layout_marginStart="35dp">
+
+                                <com.makeramen.roundedimageview.RoundedImageView
+                                    android:id="@+id/tuesday"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:clickable="true"
+                                    android:focusable="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/jeff_2"
+                                    app:riv_corner_radius="25dp" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="40dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Tuesday"
+                                        android:textColor="@color/white"
+                                        android:textSize="15sp"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+                            <RelativeLayout
+                                android:layout_width="135dp"
+                                android:layout_height="180dp"
+                                android:layout_marginStart="35dp">
+
+                                <com.makeramen.roundedimageview.RoundedImageView
+                                    android:id="@+id/thursday"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:clickable="true"
+                                    android:focusable="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/jeff3"
+                                    app:riv_corner_radius="25dp" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="40dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Thursday"
+                                        android:textColor="@color/white"
+                                        android:textSize="15sp"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+
+                            <RelativeLayout
+                                android:layout_width="135dp"
+                                android:layout_height="180dp"
+                                android:layout_marginStart="35dp">
+
+                                <com.makeramen.roundedimageview.RoundedImageView
+                                    android:id="@+id/friday"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:clickable="true"
+                                    android:focusable="true"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/jeff5"
+                                    app:riv_corner_radius="25dp" />
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_marginStart="42dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Friday"
+                                        android:textColor="@color/white"
+                                        android:textSize="15sp"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/TopView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:layout_below="@+id/topView2"
+                    android:layout_marginTop="-70dp"
+                    android:background="@drawable/border2">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="70dp">
+
+                        <RelativeLayout
+                            android:id="@+id/profileView"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_marginTop="35dp"
+                            android:layout_marginEnd="35dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/profileImg"
+                                android:layout_width="50dp"
+                                android:layout_height="60dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/user_img"
+                                app:riv_corner_radius="50dp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="25dp"
+                                android:layout_toEndOf="@id/profileImg"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/usName"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/vedha"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/dayTv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/day"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold" />
+
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/profileView"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="40dp"
+                            android:lineSpacingMultiplier="1.2"
+                            android:text="@string/About"
+                            android:textSize="16sp"
+                            android:textStyle="normal" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/topView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/topView"
+                    android:layout_marginTop="-1.5dp"
+                    android:layout_marginEnd="-1.5dp"
+                    android:background="@drawable/border">
+
+                    <TextView
+                        android:id="@+id/usName2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="95dp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="center"
+                        android:hint="@string/hii_there_vedha"
+                        android:textColor="@color/grey"
+                        android:textSize="25sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/topView"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:id="@+id/backImg"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="16dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:padding="12dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/backbutton" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="65dp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="center"
+                        android:text="@string/workout_schedule"
+                        android:textColor="@color/Black"
+                        android:textSize="30sp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
